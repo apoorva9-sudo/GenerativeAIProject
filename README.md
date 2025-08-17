@@ -1,11 +1,11 @@
-# 🤖 SpringGenAI – AI Powered Application with Spring Boot & OpenAI
+#  SpringGenAI – AI Powered Application with Spring Boot & OpenAI
 
 SpringGenAI is an **AI-powered application** built using **Spring Boot** and **OpenAI APIs**.  
 It integrates natural language processing and generative AI features into a modern Spring-based backend, making it easy to build intelligent applications.
 
 ---
 
-## 🚀 Features
+##  Features
 
 - **AI Chat Assistant** – Conversational interface powered by OpenAI.
 - **Text Generation** – Generate human-like text for queries, summaries, and creative tasks.
@@ -17,7 +17,7 @@ It integrates natural language processing and generative AI features into a mode
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠 Tech Stack
 
 - **Backend**: Java 17+, Spring Boot 3.x  
 - **AI Integration**: OpenAI GPT API  
