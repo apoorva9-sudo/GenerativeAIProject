@@ -28,26 +28,26 @@ It integrates natural language processing and generative AI features into a mode
 
 ##  Project Structure
 ## Project Structure
+      SmartContactManager/
+      ├── src/
+      │   └── main/
+      │       ├── java/
+      │       │   └── com/smart/smartcontactmanager/
+      │       │       ├── config/         # Configuration classes (Security, etc.)
+      │       │       ├── controller/     # Controllers (Web & REST)
+      │       │       ├── entity/         # JPA Entities (User, Contact, etc.)
+      │       │       ├── repository/     # Spring Data JPA Repositories
+      │       │       ├── service/        # Business Logic Layer
+      │       │       └── SmartContactManagerApplication.java
+      │       └── resources/
+      │           ├── static/             # Static files (CSS, JS, Images)
+      │           ├── templates/          # Thymeleaf Templates (HTML) 
+      │           ├── application.properties
+      │           └── application.yml (optional)
+      ├── .gitignore
+      ├── pom.xml
+      └── README.md
 
-SmartContactManager/
-├── src/
-│   └── main/
-│       ├── java/
-│       │   └── com/smart/smartcontactmanager/
-│       │       ├── config/         # Configuration classes (Security, etc.)
-│       │       ├── controller/     # Controllers (Web & REST)
-│       │       ├── entity/         # JPA Entities (User, Contact, etc.)
-│       │       ├── repository/     # Spring Data JPA Repositories
-│       │       ├── service/        # Business Logic Layer
-│       │       └── SmartContactManagerApplication.java
-│       └── resources/
-│           ├── static/             # Static files (CSS, JS, Images)
-│           ├── templates/          # Thymeleaf Templates (HTML)
-│           ├── application.properties
-│           └── application.yml (optional)
-├── .gitignore
-├── pom.xml
-└── README.md
 
 
 ## ⚙️ Setup & Installation
