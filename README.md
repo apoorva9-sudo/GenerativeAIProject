@@ -26,5 +26,54 @@ It integrates natural language processing and generative AI features into a mode
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
+## Project Structure
 
+SmartContactManager/
+├── src/
+│   └── main/
+│       ├── java/
+│       │   └── com/smart/smartcontactmanager/
+│       │       ├── config/         # Configuration classes (Security, etc.)
+│       │       ├── controller/     # Controllers (Web & REST)
+│       │       ├── entity/         # JPA Entities (User, Contact, etc.)
+│       │       ├── repository/     # Spring Data JPA Repositories
+│       │       ├── service/        # Business Logic Layer
+│       │       └── SmartContactManagerApplication.java
+│       └── resources/
+│           ├── static/             # Static files (CSS, JS, Images)
+│           ├── templates/          # Thymeleaf Templates (HTML)
+│           ├── application.properties
+│           └── application.yml (optional)
+├── .gitignore
+├── pom.xml
+└── README.md
+
+
+## ⚙️ Setup & Installation
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/your-username/SpringGenAI.git
+   cd SpringGenAI
+   In src/main/resources/application.properties:
+
+   openai.api.key=your_api_key_here
+   mvn spring-boot:run
+##   API Endpoints
+Method	Endpoint	Description
+POST	/api/ai/chat	Send a prompt to OpenAI Chat
+POST	/api/ai/generate	Generate text response
+GET	/api/ai/health	Health check of AI service
+
+Example Request:
+
+POST /api/ai/chat
+{
+  "prompt": "Explain Spring Boot in simple words"
+}
+Example Response:
+
+{
+  "response": "Spring Boot is a Java framework that makes it easier to build applications quickly..."
+}
